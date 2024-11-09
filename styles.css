@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.invoice-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: left;
+}
+
+.header {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 18px;
+    color: #888;
+}
+
+.header h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.client-info, .invoice-details, .items, .notes {
+    margin-bottom: 20px;
+}
+
+.client-info h3, .invoice-details h3, .items h3, .notes h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.client-info p, .invoice-details p, .items p, .notes p {
+    margin: 5px 0;
+}
+
+.footer {
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.emit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.emit-button:hover {
+    opacity: 0.8;
+}
